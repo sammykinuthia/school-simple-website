@@ -198,10 +198,17 @@ ul {
 }
 /* hero section */
 .hero-section {
-  min-height: 90vh;
+  min-height: 60vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  margin-bottom: 6rem;
+}
+.hero-section-left{
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+
 }
 
 .hero-img {
@@ -293,7 +300,7 @@ ul {
   margin-top: 6rem;
 }
 .courses-card {
-  background: #fff;
+  background: var(--LIGHT_TEXT_COLOR);
   padding: 1rem;
 }
 .courses-card .line-red {
@@ -309,6 +316,7 @@ ul {
 
 /* client section */
 .client-section {
+  padding: 6rem 0;
   margin-top: 6rem;
 }
 .client-section-card-parent {
@@ -376,8 +384,9 @@ ul {
 
 .experts-section {
   background: var(--FADED_SECONDARY_COLOR_2);
-  padding: 3rem 1rem;
-  margin-top: 3rem;
+  padding: 6rem 1rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 .experts-cards {
   display: grid;
@@ -408,6 +417,7 @@ ul {
 
 .newsletter-section {
   padding: 4rem 2rem;
+  margin: 6rem 0;
 }
 
 .newsletter-section div{
@@ -419,6 +429,10 @@ ul {
   border: none;
   padding: .6rem 1rem;
 
+}
+.newsletter-section input{
+  padding: .3rem .6rem;
+  min-width: 18rem;
 }
 
 

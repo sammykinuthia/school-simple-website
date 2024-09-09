@@ -11,7 +11,7 @@ const Experts = () => {
         <div className="experts-cards">
             <div className="expert-card ">
                 <img src={img1} alt="" />
-                <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, maxime!</p>
+                <p className="text-secondary text-center">Lorem ipsum dolor,<br/> sit amet consectetur adipisicing elit.<br/> Maiores, maxime!</p>
                 <p className="rating">⭐⭐⭐⭐⭐</p>
                 <p className="font-bold">Regina Miles</p>
                 <p className="">Designer</p>
@@ -19,7 +19,7 @@ const Experts = () => {
             </div>
             <div className="expert-card ">
                 <img src={img2} alt="" />
-                <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, maxime!</p>
+                <p className="text-secondary text-center">Lorem ipsum dolor,<br/> sit amet consectetur adipisicing elit.<br/> Maiores, maxime!</p>
                 <p className="rating">⭐⭐⭐⭐⭐</p>
                 <p className="font-bold">Regina Miles</p>
                 <p className="">Designer</p>

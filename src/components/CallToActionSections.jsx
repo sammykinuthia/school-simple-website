@@ -1,10 +1,10 @@
 import React from "react";
 import heroImage from "../assets/images/technology 2.png";
-import heroChart from '../assets/images/image 3.png'
+import heroChart from "../assets/images/image 3.png";
 const CallToActionSections = () => {
   return (
     <div className="hero-section container">
-      <div className="flex flex-col">
+      <div className="flex flex-col hero-section-left">
         <p className="text-accent">Welcome</p>
         <h1 className="h1">HIGH QUALITY COURSES</h1>
         <p className="text-secondary">
@@ -19,10 +19,16 @@ const CallToActionSections = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-end relative">
+      <div className="flex justify-end relative hero-section-right">
         <div className="hero-green-bg"></div>
-        <svg className="hero-orange-bg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path fill="#ffac70" d="M12 2h-1v20h1a10 10 0 0 0 0-20"/></svg>
-        <img className="hero-chart" src={heroChart}/>
+        <svg
+          className="hero-orange-bg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path fill="#ffac70" d="M12 2h-1v20h1a10 10 0 0 0 0-20" />
+        </svg>
+        <img className="hero-chart" src={heroChart} />
         <img className="hero-img" src={heroImage} alt="Hero Image" />
       </div>
     </div>
